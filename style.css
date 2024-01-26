@@ -250,7 +250,7 @@ nav ul li ul li a {
 .catalogimg {
   object-fit: cover;
   min-width: 250px;
-  width: 350px;
+  width: 450px;
   height: 450px;
   margin: 0px;
   transition: all 0.3s;
