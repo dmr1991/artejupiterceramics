@@ -208,6 +208,7 @@ nav ul li ul li a {
 .banner-subtitle {
   margin-bottom: 10px;
   margin-left: 20px;
+  margin-right: 10px;
   font-weight: 200;
   font-style: italic;
   font-size: 1.8rem;
@@ -255,15 +256,15 @@ nav ul li ul li a {
   transition: all 0.3s;
 }
 
-.infocard{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px 15px;
-    margin-bottom: 40px;
-    height: 20px;
-    color: var(--lightgreen-text);
+.infocard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 40px;
+  height: 20px;
+  color: var(--lightgreen-text);
 }
-.infocard-item{
-    padding: 5px 10px;
+.infocard-item {
+  padding: 5px 10px;
 }
