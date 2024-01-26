@@ -40,7 +40,7 @@ body {
 }
 
 nav {
-  float: right;
+  float: right; /*se coloca si quiero que el menu baje el contenido */
 }
 
 .navicon {
@@ -54,7 +54,6 @@ nav ul {
 nav ul li {
   float: left;
   position: relative;
-  border-bottom: 1px solid var(--lightgreen-text);
 }
 
 /* links del nav */
@@ -63,8 +62,9 @@ nav ul li a {
   text-transform: uppercase;
   padding: 0 20px;
   line-height: 80px;
-  background: #26262600;
-  text-decoration: none;
+  background: var(--background-color);
+  text-decoration: underline;
+  text-underline-offset: 8px;
   color: var(--lightgreen-text);
 }
 
@@ -200,13 +200,14 @@ nav ul li ul li a {
   padding: 15px auto;
 }
 .banner-title {
-  margin: 10px;
+  margin: 20px;
   font-weight: 600;
   font-size: 2rem;
   color: var(--lightgreen-text);
 }
 .banner-subtitle {
   margin-bottom: 10px;
+  margin-left: 20px;
   font-weight: 200;
   font-style: italic;
   font-size: 1.8rem;
@@ -241,13 +242,28 @@ nav ul li ul li a {
 }
 .card {
   max-width: 450px;
+  min-width: 250px;
   margin: 10px;
 }
 
 .catalogimg {
   object-fit: cover;
-  width: 450px;
+  min-width: 250px;
+  width: 350px;
   height: 450px;
   margin: 0px;
   transition: all 0.3s;
+}
+
+.infocard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    height: 20px;
+    color: var(--lightgreen-text);
+}
+.infocard-item{
+    padding: 5px 10px;
 }
